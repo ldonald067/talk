@@ -2,13 +2,17 @@ $(document).ready(function() {
   $("button#hello").click(function() {
     $("ul#user").prepend("<li>Hello</li>");
     $("ul#webpage").prepend("<li>Beyonce</li>");
-    $("li").css("background-color", "green");
+    $("li").click(function() {
+      alert("hello");
+
+    });
+
 });
 
 $("button#goodbye").click(function() {
   $("ul#user").prepend("<li>Goodbye</li>");
   $("ul#webpage").prepend("<li>Bjork</li>");
-  $
+
 
 });
 
