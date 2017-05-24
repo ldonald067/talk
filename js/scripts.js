@@ -1,15 +1,18 @@
 $(document).ready(function() {
   $("button#hello").click(function() {
-    $("ul").append("<li>Hello</li>");
+    $("ul#user").prepend("<li>Hello</li>");
+    $("ul#webpage").prepend("<li>Beyonce</li>");
 });
 
 $("button#goodbye").click(function() {
-  $("ul").prepend("<li>Goodbye</li>");
+  $("ul#user").prepend("<li>Goodbye</li>");
+  $("ul#webpage").prepend("<li>Bjork</li>");
+  $
 
 });
 
 $("button#stop").click(function() {
-  $("ul").append("<li>Stop</li>");
-
+  $("ul#user").prepend("<li>Stop</li>");
+  $("ul#webpage").prepend("<li>Drake</li>");
   });
 });
