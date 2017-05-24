@@ -4,10 +4,10 @@ $(document).ready(function() {
     $("ul#webpage").prepend("<li>Beyonce</li>");
 
     $("ul#user").children("li").first().click(function() {
-      alert("hi");
+      $(this).remove();
 });
     $("ul#webpage").children("li").first().click(function() {
-      alert("hi");
+      $(this).remove();
 });
 
 $("button#goodbye").click(function() {
