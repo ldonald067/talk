@@ -15,4 +15,7 @@ $("button#stop").click(function() {
   $("ul#user").prepend("<li>Stop</li>");
   $("ul#webpage").prepend("<li>Drake</li>");
   });
+
+  $("li").css(background-color, green);
+
 });
