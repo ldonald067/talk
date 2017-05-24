@@ -2,6 +2,7 @@ $(document).ready(function() {
   $("button#hello").click(function() {
     $("ul#user").prepend("<li>Hello</li>");
     $("ul#webpage").prepend("<li>Beyonce</li>");
+    $("li").css("background-color", "green");
 });
 
 $("button#goodbye").click(function() {
@@ -16,6 +17,6 @@ $("button#stop").click(function() {
   $("ul#webpage").prepend("<li>Drake</li>");
   });
 
-  $("li").css(background-color, green);
+
 
 });
